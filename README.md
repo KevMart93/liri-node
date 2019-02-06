@@ -18,12 +18,13 @@ After typing one of those commands, a prompt will pop up to further guide the us
 ### Breakdown of commands:
 **concert-this** 
   concert-this is designed to allow a user to search for an Artist and get back data about their upcoming concerts
-  To begin, the user types in **node liri.js concert-this**
+  *To begin*, the user types in **node liri.js concert-this**
   The terminal will return back "What Artist would you like to see?"
-  The user then types in **Artist Name** and the results are displayed.
-  If there are no upcoming shows, the terminal says there is no information for that artist.
-  Please refer to the pictures in each section for more help.
+  *The* user then types in **Artist Name** and the results are displayed.
+  *If* there are no upcoming shows, the terminal says there is no information for that artist.
+  **Please refer to the pictures in each section for more help.**
   ![concert-this with info](https://raw.githubusercontent.com/KevMart93/liri-node/master/concert-this.png)
+  ![concert-this-without-info](https://raw.githubusercontent.com/KevMart93/liri-node/master/ct-no-info.png)
   
   
   
@@ -33,6 +34,7 @@ After typing one of those commands, a prompt will pop up to further guide the us
   The terminal will return back "What song would you like to play?"
   The user then types in **Song Name** and the result is displayed.
   Info includes artist, track, and album name, as well as a link to a song preview on Spotify
+  ![spotify-this multiple examples](https://raw.githubusercontent.com/KevMart93/liri-node/master/spotify-this-song.png)
 
 
 
