@@ -2,14 +2,15 @@
 require("dotenv").config();
 
 var inquirer = require('inquirer');
+var moment = require('moment');
 var axios = require('axios');
 var request = require('request');
 var fs = require('fs');
 
 // Setting up Spotify
 var Spotify = require('node-spotify-api');
-var spotify = new Spotify(keys.spotify);
 var keys = require('./keys.js');
+var spotify = new Spotify(keys.spotify);
 
 // Functions for getting track/movie info
 function trackName(artistName, songName, trackLink, albumName) {
@@ -133,7 +134,7 @@ function BandLookUp() {
                     console.log(currentData)
                 }
             }
-            print(currentData)
+            // print(currentData)
         }
     );
     }
@@ -174,6 +175,7 @@ function MovieLookUp() {
     });
 }
 
+// Function to read txt file 
 function DoWhatItSays() {
     fs.readFile("random.txt", "utf8", function (error, data) {
         if (error) {
