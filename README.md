@@ -23,6 +23,8 @@ After typing one of those commands, a prompt will pop up to further guide the us
   The user then types in **Artist Name** and the results are displayed.
   If there are no upcoming shows, the terminal says there is no information for that artist.
   Please refer to the pictures in each section for more help.
+  ![concert-this with info](https://raw.githubusercontent.com/KevMart93/liri-node/master/concert-this.png)
+  
   
   
 **spotify-this-song**
